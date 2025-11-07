@@ -25,8 +25,7 @@ public:
             }
             else
             {
-                // count to lower bound
-                res += (a / 10 + 1) * i; // part digit 2 have lower bound is 1999 but we already count 999 part before because we loop i increase. So we only need count from 0 -> 999 instead of 1999
+                res += (a / 10 + 1) * i;
             }
         }
         return res;
