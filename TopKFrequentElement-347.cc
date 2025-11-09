@@ -1,3 +1,8 @@
+// SOLUTION:
+/*
+    Use hashmap to track <frequency,key>
+    Add element of hashmap onto a maxheap to get order descending
+*/
 // ========== WITH STL==========
 class Solution
 {
